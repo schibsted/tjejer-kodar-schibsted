@@ -1,0 +1,11 @@
+.resize {
+    width: 200px;
+    height: auto;
+}
+.text {
+    font-size: 17px;
+
+}
+a:link {
+    text-decoration: none;
+}
