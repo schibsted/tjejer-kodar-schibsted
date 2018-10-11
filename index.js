@@ -15,15 +15,15 @@ function createScript(name) {
         const fn = window[name]
         const el = document.querySelector(`#${name}`);
         if (typeof fn !== 'function') {
-            el.innerHTML = `Something broken in ${name}. It is ${typeof fn}`;
+            el.innerHTML = `<h3>Error in ${name}</h3>Expected function, type of ${name} is ${typeof fn}.`;
         } else {
             try {
                 el.innerHTML = fn(news);
             } catch (e) {
-                el.innerHTML = `<pre><code>${e.stack}</code></pre>`;
+                el.innerHTML = `<h3>Error in ${name}</h3><pre><code>${e.stack}</code></pre>`;
+                throw e;
             }
         }
     }
     document.body.append(script);
-    return script;
 }
