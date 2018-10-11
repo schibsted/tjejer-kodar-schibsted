@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <style>
+            body {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+        </style>
+        <link rel="stylesheet" href="header/header.css">
+        <link rel="stylesheet" href="article/article.css">
+        <link rel="stylesheet" href="list/list.css">
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <div id="list"></div>
+        <div id="article"></div>
+    </body>
+
+    <!-- Load article data, available in the global variable news. -->
+    <script src="news.js"></script>
+
+    <!-- Here we would 'normally' have the script tags for loading the three javascript files.
+        <script src="header/header.js"></script>
+        <script src="list/list.js"></script>
+        <script src="article/article.js"></script> 
+    Instead we have logic in index.js to do this, so if one group breaks the page it will not affect
+    everyone else. -->
+    <script src="index.js"></script>
+</html>
