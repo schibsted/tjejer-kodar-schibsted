@@ -22,6 +22,21 @@ var news = [
         category: 'frontend',
         authors: ["Freja Busby"]
     }, {
+        title: "Fantastiska och mirakulösa Javascript",
+        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/03/29746665_10156181904590768_337675600_o-735x865.jpg",
+        contents: [
+            "Första veckan med Javascript har nått sitt slut. Funktioner, variabler, arrays, loopar och vad är egentligen ett objekt? Frågorna har varit många och stämningen har stundvis varit låg. Jag förstår, att om man aldrig har sett Javascript innan så är detta överväldigande. Under våra individuella uppgifter har det varit hög koncentration, stundvis bryts tystnaden av ett argt “Nej!” eller ett uppgivet “Va? Varför hände detta?”🤯 Lyckan är dock total när man får något att fungera, då hörs det glädjerop och lättnande suckar. Våra lärare påminner oss minst en gång om dagen om att Javascript har en brant inlärningskurva, men bitarna kommer falla på plats och ni kommer tycka att det är logiskt. Och plötsligt gör bitarna det, det lovar jag!",
+            "När jag sökte till Technigo hade jag redan bra kunskap inom HTML och CSS, även en grundförståelse för Javascript. Jag har haft svårt att på egen hand lära mig tankesättet med Javascript dock, vilka delar ska ligga vart, vilka funktioner ska köras när. Men i slutet på denna vecka så fick jag en “aha-upplevelse”, jag börjar greppa detta. När man får någon typ av förståelse, varesig det handlar om vad en variabel är eller när man använder en array, så är det ren och skär lycka man känner! Det där som jag för några månader, veckor eller dagar sedan inte kunde greppa alls, börjar jag nu förstå. Och då känner man sig så himla grym!",
+            "Men vad är egentligen Javascript? 🤔",
+            "Javscript är ett objektorienterat skriptspråk som körs direkt i webbläsaren. Med Javascript kan man bygga mer eller mindre komplexa funktioner som modifierar hemsidan eller applikationer när en användare interagerar med den.",
+            "En av de individuella uppgifterna denna vecka var att bygga en pizzabot. Den skulle enbart erbjuda tre olika sorters pizzor. Den skulle även räkna ut det sammanlagda priset (80kr styck) och hur lång tid pizzorna skulle ta att tillaga.  Se mitt resultat nedan. 🍕",
+            "Sharing is caring! Något som är extremt viktigt när man lär sig något nytt tillsammans med andra är att dela med sig av sin kunskap. Detta är väldigt betydelsefullt inom webbutveckling. Utvecklingen går fort och det kommer hela tiden nya saker att lära sig. I klassen är vi väldigt duktiga på detta. Vi hjälper varandra att utvecklas och nå våra mål, tillsammans. Vi har ett öppet klimat där vi vågar fråga varandra och på det sättet utvecklas och lära oss snabbare."
+        ],
+        reference: "http://www.tjejerkodar.se/blogg/fantastiska-och-mirakulosa-javascript/",
+        publishDate: "28 mars, 2018",
+        category: 'technigo',
+        authors: ["Freja Busby"]
+    }, {
         title: "CSS Grid – Framtidens sätt att layouta",
         image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/04/31346893_10156254355370768_290399575154360320_n-735x670.jpg",
         contents: [
@@ -37,39 +52,6 @@ var news = [
         publishDate: "27 april, 2018",
         category: 'frontend',
         authors: ["Freja Busby"]
-    }, {
-        title: "Vad är egentligen React?",
-        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/04/freja-coding-react-735x865.jpg",
-        contents: [
-            "Ofta när man läser, pratar eller hör om Javascript nämns också frameworks och Javascript bibliotek. Det finns oändligt många och det är lite av en djungel. React som är skapat av Facebook är ett av dem. Det används idag bland annat av Instagram, Uber, Airbnb och självklart Facebook själva. React ökar i popularitet för varje dag som går och det känns som att alla pratar om det!",
-            "Men vad är egentligen React? 🤔",
-            "React är ett effektivt och flexibelt Javascript bibliotek som används för att bygga användargränsnitt. Enkelt förklarat är ett Javascript bibliotek ett typ av bibliotek som har färdiga funktioner man använder sig utav när man skriver Javascript. Ett bibliotek gör det alltså enklare att skriva komplex kod. Ett annat populärt bibliotek är Jquery och populära frameworks är Vue.js och Angular.",
-            "Det är dock en delad åsikt om React är ett framework eller ett Javascript bibliotek. Många säger att det flyter någonstans mittemellan och har suddat ut gränsen mellan ett bibliotek och ett framework. Jag har utgått ifrån vad som står på reactjs.org, där de definierar React som ett bibliotek.  📚",
-            "Så, som nybörjare borde jag lära mig React?",
-            "En fundering som lätt uppstår om man är nybörjare är om man ska använda sig av ett framework, Javascript bibliotek eller lära sig vanilla Javascript (som det kallas när man enbart använder ren Javascript) först. Detta var en fråga jag funderade mycket på när jag på egen hand försökte lära mig Javascript. Efter att ha frågar runt och läst artiklar är min slutsats: lär dig gärna grunderna i Javascript först och implementera sedan ett framework eller bibliotek till din kunskapsbank. Anledningen är enkel, kan du grunderna i Javascript kommer du troligtvis ha lättare att förstå och använda olika frameworks och bibliotek, för du förstår grundkonceptet. Även på react.org förespråkas det att först lär sig grunderna i Javascript, innan man ger sig på att använda React. Vissa tycker dock att man kan köra direkt på ett framework, för då kan man troligtvis ge sig på komplex kod snabbare. 💥",
-            "På Boot Campet ingår två sprintar med fullt fokus på React. Vi är nu halvvägs in i den andra sprinten av dessa två. Det är superkul och utmanande, på ett (oftast) roligt vis. 🤩 Hittills har vi bland annat gjort en klocka, som man kan pausa och starta igen, en momskalkylator och en radio som hämtar in kanaler från SR:s API."
-        ],
-        reference: "http://www.tjejerkodar.se/blogg/vad-ar-egentligen-react/",
-        publishDate: "20 april, 2018",
-        category: 'frontend',
-        authors: ["Freja Busby"]
-    }, {
-        title: "En typisk arbetsdag för en utevcklare",
-        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3533-735x865.jpg",
-        contents: [
-            "Hur ser egentligen en dag ut för en utvecklare? Det finns många stereotypa bilder av vem det är som jobbar med programmering. Vi vill tillsammans med Svenska Spel bryta den bilden och visa upp fler exempel!",
-            "Här visar vi upp hur en vanlig dag för Martina – utvecklare på Svenska Spel – kan se ut. Häng med! 👇🏽",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3530-300x300.jpg'/>1. Börjar dagen med en god frukost för hela familjen 🥞",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3539-300x300.jpg'/>2. Jobbar bland annat med Stryktipset. Där är utmaningen att få alla delar att samarbeta. När man till exempel markerar ett val i kupongen.",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3533-300x300.jpg'/>3. Kort paus för att njuta av utsikten under lunchjoggen.",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/22D5B997-404D-4333-9BB7-307CE619C26F-300x200.jpg'/>4. Under en arbetsdag kan allt möjligt hända! Det kan vara buggar som behöver rättas eller nya idéer som ska utvecklas.",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3532-225x300.jpg'/>5. Hämtar mina älsklingar på skolan ❤",
-            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3531-300x300.jpg'/>6. Njuter av solen och en bra bok som avslutning på dagen."
-        ],
-        reference: "http://www.tjejerkodar.se/blogg/en-typisk-arbetsdag-for-en-utevcklare/",
-        publishDate: "9 maj, 2018",
-        category: 'inspiration',
-        authors: ["tjejerkodar"]
     }, {
         title: "Mini-intervju: Katarina Sjölund",
         image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/03/moi-1-735x865.jpg",
@@ -119,20 +101,38 @@ var news = [
         category: 'technigo',
         authors: ["Freja Busby"]
     }, {
-        title: "Fantastiska och mirakulösa Javascript",
-        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/03/29746665_10156181904590768_337675600_o-735x865.jpg",
+        title: "Vad är egentligen React?",
+        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/04/freja-coding-react-735x865.jpg",
         contents: [
-            "Första veckan med Javascript har nått sitt slut. Funktioner, variabler, arrays, loopar och vad är egentligen ett objekt? Frågorna har varit många och stämningen har stundvis varit låg. Jag förstår, att om man aldrig har sett Javascript innan så är detta överväldigande. Under våra individuella uppgifter har det varit hög koncentration, stundvis bryts tystnaden av ett argt “Nej!” eller ett uppgivet “Va? Varför hände detta?”🤯 Lyckan är dock total när man får något att fungera, då hörs det glädjerop och lättnande suckar. Våra lärare påminner oss minst en gång om dagen om att Javascript har en brant inlärningskurva, men bitarna kommer falla på plats och ni kommer tycka att det är logiskt. Och plötsligt gör bitarna det, det lovar jag!",
-            "När jag sökte till Technigo hade jag redan bra kunskap inom HTML och CSS, även en grundförståelse för Javascript. Jag har haft svårt att på egen hand lära mig tankesättet med Javascript dock, vilka delar ska ligga vart, vilka funktioner ska köras när. Men i slutet på denna vecka så fick jag en “aha-upplevelse”, jag börjar greppa detta. När man får någon typ av förståelse, varesig det handlar om vad en variabel är eller när man använder en array, så är det ren och skär lycka man känner! Det där som jag för några månader, veckor eller dagar sedan inte kunde greppa alls, börjar jag nu förstå. Och då känner man sig så himla grym!",
-            "Men vad är egentligen Javascript? 🤔",
-            "Javscript är ett objektorienterat skriptspråk som körs direkt i webbläsaren. Med Javascript kan man bygga mer eller mindre komplexa funktioner som modifierar hemsidan eller applikationer när en användare interagerar med den.",
-            "En av de individuella uppgifterna denna vecka var att bygga en pizzabot. Den skulle enbart erbjuda tre olika sorters pizzor. Den skulle även räkna ut det sammanlagda priset (80kr styck) och hur lång tid pizzorna skulle ta att tillaga.  Se mitt resultat nedan. 🍕",
-            "Sharing is caring! Något som är extremt viktigt när man lär sig något nytt tillsammans med andra är att dela med sig av sin kunskap. Detta är väldigt betydelsefullt inom webbutveckling. Utvecklingen går fort och det kommer hela tiden nya saker att lära sig. I klassen är vi väldigt duktiga på detta. Vi hjälper varandra att utvecklas och nå våra mål, tillsammans. Vi har ett öppet klimat där vi vågar fråga varandra och på det sättet utvecklas och lära oss snabbare."
+            "Ofta när man läser, pratar eller hör om Javascript nämns också frameworks och Javascript bibliotek. Det finns oändligt många och det är lite av en djungel. React som är skapat av Facebook är ett av dem. Det används idag bland annat av Instagram, Uber, Airbnb och självklart Facebook själva. React ökar i popularitet för varje dag som går och det känns som att alla pratar om det!",
+            "Men vad är egentligen React? 🤔",
+            "React är ett effektivt och flexibelt Javascript bibliotek som används för att bygga användargränsnitt. Enkelt förklarat är ett Javascript bibliotek ett typ av bibliotek som har färdiga funktioner man använder sig utav när man skriver Javascript. Ett bibliotek gör det alltså enklare att skriva komplex kod. Ett annat populärt bibliotek är Jquery och populära frameworks är Vue.js och Angular.",
+            "Det är dock en delad åsikt om React är ett framework eller ett Javascript bibliotek. Många säger att det flyter någonstans mittemellan och har suddat ut gränsen mellan ett bibliotek och ett framework. Jag har utgått ifrån vad som står på reactjs.org, där de definierar React som ett bibliotek.  📚",
+            "Så, som nybörjare borde jag lära mig React?",
+            "En fundering som lätt uppstår om man är nybörjare är om man ska använda sig av ett framework, Javascript bibliotek eller lära sig vanilla Javascript (som det kallas när man enbart använder ren Javascript) först. Detta var en fråga jag funderade mycket på när jag på egen hand försökte lära mig Javascript. Efter att ha frågar runt och läst artiklar är min slutsats: lär dig gärna grunderna i Javascript först och implementera sedan ett framework eller bibliotek till din kunskapsbank. Anledningen är enkel, kan du grunderna i Javascript kommer du troligtvis ha lättare att förstå och använda olika frameworks och bibliotek, för du förstår grundkonceptet. Även på react.org förespråkas det att först lär sig grunderna i Javascript, innan man ger sig på att använda React. Vissa tycker dock att man kan köra direkt på ett framework, för då kan man troligtvis ge sig på komplex kod snabbare. 💥",
+            "På Boot Campet ingår två sprintar med fullt fokus på React. Vi är nu halvvägs in i den andra sprinten av dessa två. Det är superkul och utmanande, på ett (oftast) roligt vis. 🤩 Hittills har vi bland annat gjort en klocka, som man kan pausa och starta igen, en momskalkylator och en radio som hämtar in kanaler från SR:s API."
         ],
-        reference: "http://www.tjejerkodar.se/blogg/fantastiska-och-mirakulosa-javascript/",
-        publishDate: "28 mars, 2018",
-        category: 'technigo',
+        reference: "http://www.tjejerkodar.se/blogg/vad-ar-egentligen-react/",
+        publishDate: "20 april, 2018",
+        category: 'frontend',
         authors: ["Freja Busby"]
+    }, {
+        title: "En typisk arbetsdag för en utevcklare",
+        image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3533-735x865.jpg",
+        contents: [
+            "Hur ser egentligen en dag ut för en utvecklare? Det finns många stereotypa bilder av vem det är som jobbar med programmering. Vi vill tillsammans med Svenska Spel bryta den bilden och visa upp fler exempel!",
+            "Här visar vi upp hur en vanlig dag för Martina – utvecklare på Svenska Spel – kan se ut. Häng med! 👇🏽",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3530-300x300.jpg'/>1. Börjar dagen med en god frukost för hela familjen 🥞",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3539-300x300.jpg'/>2. Jobbar bland annat med Stryktipset. Där är utmaningen att få alla delar att samarbeta. När man till exempel markerar ett val i kupongen.",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3533-300x300.jpg'/>3. Kort paus för att njuta av utsikten under lunchjoggen.",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/22D5B997-404D-4333-9BB7-307CE619C26F-300x200.jpg'/>4. Under en arbetsdag kan allt möjligt hända! Det kan vara buggar som behöver rättas eller nya idéer som ska utvecklas.",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3532-225x300.jpg'/>5. Hämtar mina älsklingar på skolan ❤",
+            "<img src='http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/05/IMG_3531-300x300.jpg'/>6. Njuter av solen och en bra bok som avslutning på dagen."
+        ],
+        reference: "http://www.tjejerkodar.se/blogg/en-typisk-arbetsdag-for-en-utevcklare/",
+        publishDate: "9 maj, 2018",
+        category: 'inspiration',
+        authors: ["tjejerkodar"]
     }, {
         title: "👋Google – vår första demo",
         image: "http://www.tjejerkodar.se/blogg/wp-content/uploads/2018/03/Image-uploaded-from-iOS-735x865.jpg",
