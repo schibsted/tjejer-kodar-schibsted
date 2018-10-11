@@ -27,10 +27,3 @@ function createScript(name) {
     document.body.append(script);
     return script;
 }
-
-/**
- * Load header, article and list respectively.
- */
-createScript('header');
-createScript('article');
-createScript('list');

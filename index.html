@@ -26,7 +26,22 @@
         <script src="header/header.js"></script>
         <script src="list/list.js"></script>
         <script src="article/article.js"></script> 
-    Instead we have logic in index.js to do this, so if one group breaks the page it will not affect
-    everyone else. -->
+    Instead there is a function in index.js called createScript that we use below instead of the script tags.
+    This is to make sure that if one group breaks the page it will not affect anyone else. -->
     <script src="index.js"></script>
+
+    <script>
+        // Get parameter list from URL (key value pairs after ? in URL, e.g. www.my-news.com/index.html?article=3).
+        var urlParams = new URLSearchParams(window.location.search);
+        var id = urlParams.get('article');
+
+        createScript('header');
+
+        // If URL doesn't contain ?article=id then show front page, otherwise show article.
+        if (!id) {
+            createScript('list');
+        } else {
+            createScript('article');
+        }
+    </script>
 </html>
