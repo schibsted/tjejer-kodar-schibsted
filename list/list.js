@@ -9,7 +9,7 @@ function list(data) {
     console.log('test'+' '+'hey');
     var text='';
     $.each(data, function(index, value) {
-        text = text+'<p class="text"><img class="resize" src="'+value.image+'"><br><a href="/index.html?article='+index+'">'+value.title+'</a></p>';
+        text = text+'<p class="text"><img class="resize" src="'+value.image+'"><br><a href="./index.html?article='+index+'">'+value.title+'</a></p>';
         console.log(index, value.image);
     });
     return text;
