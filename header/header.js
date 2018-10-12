@@ -7,7 +7,7 @@
 function header(newsItem) {   
     return  `<header>
     <h1>    
-    <a href="/">DAILY NEWS</a>
+    <a href="./">DAILY NEWS</a>
     </h1>
         <h2>
         <a href="?category=inspiration">INSPIRATION</a>
